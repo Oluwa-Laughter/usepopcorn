@@ -4,15 +4,15 @@ import StarRating from "./StarRating";
 import App from "./App.jsx";
 import "./index.css";
 
-function Test() {
-  const [movieRating, setMovieRating] = useState(0);
-  return (
-    <div>
-      <StarRating color="blue" maxRating={10} onMovieRate={setMovieRating} />
-      <p>These movie is rated {movieRating} </p>
-    </div>
-  );
-}
+// function Test() {
+//   const [movieRating, setMovieRating] = useState(0);
+//   return (
+//     <div>
+//       <StarRating color="blue" maxRating={10} onMovieRate={setMovieRating} />
+//       <p>These movie is rated {movieRating} </p>
+//     </div>
+//   );
+// }
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>

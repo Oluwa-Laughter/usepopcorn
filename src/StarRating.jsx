@@ -24,7 +24,7 @@ const StarRating = ({
   const [tempRating, setTempRating] = useState(0);
   const handleRating = (rating) => {
     setRating(rating);
-    onMovieRate(rating);
+    // onMovieRate(rating);
   };
 
   const textStyle = {
