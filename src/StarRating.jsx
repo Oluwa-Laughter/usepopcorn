@@ -22,9 +22,10 @@ const StarRating = ({
 }) => {
   const [rating, setRating] = useState(defaultRating);
   const [tempRating, setTempRating] = useState(0);
+
   const handleRating = (rating) => {
     setRating(rating);
-    // onMovieRate(rating);
+    onMovieRate(rating);
   };
 
   const textStyle = {
